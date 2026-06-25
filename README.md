@@ -61,7 +61,7 @@
                 id: 7,
                 name: "Machranga HD",
                 streamUrl: "https://owrcovcrpy.gpcdn.net/bpk-tv/1722/output/1722-audio_113522_eng=113200-video=2202800.m3u8",
-                logo: "https://via.placeholder.com/150?text=Sony+Sports+2"
+                logo: "https://mail.maasranga.tv/public/customize/newImage/logo.png"
             },
             {
                 id: 6,
@@ -110,7 +110,7 @@
                 id: 10,
                 name: "Channel 24 HD",
                 streamUrl: "https://owrcovcrpy.gpcdn.net/bpk-tv/1703/output/1703-audio_113332_eng=113200-video=2202800.m3u8",
-                logo: "https://via.placeholder.com/150?text=Sony+Sports+2"
+                logo: "https://images.seeklogo.com/logo-png/42/1/channel-24-logo-png_seeklogo-424910.png"
             },
             {
                 id: 11,
@@ -122,7 +122,7 @@
                 id: 12,
                 name: "Star News HD",
                 streamUrl: "https://owrcovcrpy.gpcdn.net/bpk-tv/1710/output/1710-audio_113402_eng=113200-video=3224800.m3u8",
-                logo: "https://via.placeholder.com/150?text=Sony+Sports+2"
+                logo: "https://starnews.com.bd/image/mob_logo.png"
             },
             {
                 id: 13,
