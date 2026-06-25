@@ -52,7 +52,7 @@
         // আপনার দেওয়া ৫টি লাইভ চ্যানেলের লিস্ট এখানে সাজানো হয়েছে
         const channels = [
             {
-                id: 1,
+                id: 6,
                 name: "Somoy TV",
                 streamUrl: "https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8",
                 logo: "https://via.placeholder.com/150?text=Somoy+TV" // এখানে লোগোর লিংক দিতে পারেন
@@ -82,7 +82,7 @@
                 logo: "https://via.placeholder.com/150?text=Sony+Sports+2"
             },
             {
-                id: 6,
+                id: 1,
                 name: "BTV",
                 streamUrl: "https://owrcovcrpy.gpcdn.net/bpk-tv/1709/output/1709-audio_113392_eng=113200-video=2202800.m3u8",
                 logo: "https://via.placeholder.com/150?text=Stream+4"
@@ -90,7 +90,49 @@
             {
                 id: 7,
                 name: "Machranga HD",
-                streamUrl: "[https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_sports_2_hd/playlist.m3u8](https://owrcovcrpy.gpcdn.net/bpk-tv/1722/output/1722-audio_113522_eng=113200-video=2202800.m3u8)",
+                streamUrl: "https://owrcovcrpy.gpcdn.net/bpk-tv/1722/output/1722-audio_113522_eng=113200-video=2202800.m3u8",
+                logo: "https://via.placeholder.com/150?text=Sony+Sports+2"
+            },
+            {
+                id: 8,
+                name: "Sangeet Bangla HD",
+                streamUrl: "[https://cdn-4.pishow.tv/live/1143/master.m3u8]",
+                logo: "https://via.placeholder.com/150?text=Sony+Sports+2"
+            },
+            {
+                id: 9,
+                name: "Channel I HD",
+                streamUrl: "https://owrcovcrpy.gpcdn.net/bpk-tv/1723/output/1723-audio_113532_eng=113200-video=2202800.m3u8",
+                logo: "https://via.placeholder.com/150?text=Sony+Sports+2"
+            },
+            {
+                id: 10,
+                name: "Channel 24 HD",
+                streamUrl: "https://owrcovcrpy.gpcdn.net/bpk-tv/1703/output/1703-audio_113332_eng=113200-video=2202800.m3u8",
+                logo: "https://via.placeholder.com/150?text=Sony+Sports+2"
+            },
+            {
+                id: 11,
+                name: "NTV HD",
+                streamUrl: "https://owrcovcrpy.gpcdn.net/bpk-tv/1716/output/1716-audio_113462_eng=113200-video=2202800.m3u8",
+                logo: "https://via.placeholder.com/150?text=Sony+Sports+2"
+            },
+            {
+                id: 12,
+                name: "Star News HD",
+                streamUrl: "https://owrcovcrpy.gpcdn.net/bpk-tv/1710/output/1710-audio_113402_eng=113200-video=3224800.m3u8",
+                logo: "https://via.placeholder.com/150?text=Sony+Sports+2"
+            },
+            {
+                id: 13,
+                name: "T Sports HD",
+                streamUrl: "https://trs1.aynaott.com/tsports/tracks-v1a1/mono.ts.m3u8",
+                logo: "https://via.placeholder.com/150?text=Sony+Sports+2"
+            },
+            {
+                id: 14,
+                name: "Ekattor TV HD",
+                streamUrl: "https://owrcovcrpy.gpcdn.net/bpk-tv/1705/output/1705-audio_113352_eng=113200-video=2202800.m3u8",
                 logo: "https://via.placeholder.com/150?text=Sony+Sports+2"
             }
         ];
