@@ -17,7 +17,7 @@
 
     <header class="sticky top-0 z-50 bg-[#0f172a]/90 backdrop-blur-md border-b border-gray-800">
         <div class="container mx-auto px-6 py-4 flex justify-between items-center">
-            <a href="#" class="text-2xl font-black text-emerald-500">PSTU <span class="text-white">Radio</span></a>
+            <a href="#" class="text-2xl font-black text-emerald-500">Kiron <span class="text-white">Tech</span></a>
             <span class="bg-emerald-600 px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-widest">সম্পূর্ণ ফ্রি</span>
         </div>
     </header>
@@ -46,7 +46,7 @@
     </section>
 
     <footer class="py-8 text-center text-gray-600 border-t border-gray-800">
-        <p>&copy; 2026 PSTU Radio. All Rights Reserved.</p>
+        <p>&copy; 2026 Kiron. All Rights Reserved.</p>
     </footer>
 
     <script>
