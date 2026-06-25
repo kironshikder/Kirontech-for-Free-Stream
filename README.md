@@ -51,11 +51,29 @@
     <script>
         // আপনার দেওয়া ৫টি লাইভ চ্যানেলের লিস্ট এখানে সাজানো হয়েছে
         const channels = [
+        {
+                id: 1,
+                name: "BTV",
+                streamUrl: "https://owrcovcrpy.gpcdn.net/bpk-tv/1709/output/1709-audio_113392_eng=113200-video=2202800.m3u8",
+                logo: "https://images.seeklogo.com/logo-png/45/1/btv-bangladesh-television-logo-png_seeklogo-459657.png"
+            },
+            {
+                id: 7,
+                name: "Machranga HD",
+                streamUrl: "https://owrcovcrpy.gpcdn.net/bpk-tv/1722/output/1722-audio_113522_eng=113200-video=2202800.m3u8",
+                logo: "https://via.placeholder.com/150?text=Sony+Sports+2"
+            },
             {
                 id: 6,
                 name: "Somoy TV",
                 streamUrl: "https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8",
                 logo: "https://images.seeklogo.com/logo-png/53/1/somoy-tv-logo-png_seeklogo-536972.png" // এখানে লোগোর লিংক দিতে পারেন
+            },
+            {
+                id: 9,
+                name: "Channel I HD",
+                streamUrl: "https://owrcovcrpy.gpcdn.net/bpk-tv/1723/output/1723-audio_113532_eng=113200-video=2202800.m3u8",
+                logo: "https://via.placeholder.com/150?text=Sony+Sports+2"
             },
             {
                 id: 2,
@@ -80,29 +98,12 @@
                 name: "Sony Sports 2 HD",
                 streamUrl: "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_sports_2_hd/playlist.m3u8",
                 logo: "https://via.placeholder.com/150?text=Sony+Sports+2"
-            },
-            {
-                id: 1,
-                name: "BTV",
-                streamUrl: "https://owrcovcrpy.gpcdn.net/bpk-tv/1709/output/1709-audio_113392_eng=113200-video=2202800.m3u8",
-                logo: "https://via.placeholder.com/150?text=Stream+4"
-            },
-            {
-                id: 7,
-                name: "Machranga HD",
-                streamUrl: "https://owrcovcrpy.gpcdn.net/bpk-tv/1722/output/1722-audio_113522_eng=113200-video=2202800.m3u8",
-                logo: "https://via.placeholder.com/150?text=Sony+Sports+2"
-            },
+            },      
+      
             {
                 id: 8,
                 name: "Sangeet Bangla HD",
                 streamUrl: "[https://cdn-4.pishow.tv/live/1143/master.m3u8]",
-                logo: "https://via.placeholder.com/150?text=Sony+Sports+2"
-            },
-            {
-                id: 9,
-                name: "Channel I HD",
-                streamUrl: "https://owrcovcrpy.gpcdn.net/bpk-tv/1723/output/1723-audio_113532_eng=113200-video=2202800.m3u8",
                 logo: "https://via.placeholder.com/150?text=Sony+Sports+2"
             },
             {
