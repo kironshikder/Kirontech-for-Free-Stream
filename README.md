@@ -114,20 +114,20 @@
             },
             {
                 id: 17,
-                name: "test HD",
-                streamUrl: "https://owrcovcrpy.gpcdn.net/bpk-tv/1711/output/1711-audio_113412_eng=113200-video=2202800.m3u8",
+                name: "Channel 1 HD",
+                streamUrl: "https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/1702-audio_113322_eng=113200-video=2202800.m3u8",
                 logo: "https://via.placeholder.com/150?text=Sony+Sports+2"
             },
             {
                 id: 18,
-                name: "test HD",
-                streamUrl: "https://owrcovcrpy.gpcdn.net/bpk-tv/1711/output/1711-audio_113412_eng=113200-video=2202800.m3u8",
+                name: "Channel 9 HD",
+                streamUrl: "https://owrcovcrpy.gpcdn.net/bpk-tv/1729/output/1729-audio_113592_eng=113200-video=2202800.m3u8",
                 logo: "https://via.placeholder.com/150?text=Sony+Sports+2"
             },
             {
                 id: 19,
-                name: "test HD",
-                streamUrl: "https://owrcovcrpy.gpcdn.net/bpk-tv/1711/output/1711-audio_113412_eng=113200-video=2202800.m3u8",
+                name: "Global TV HD",
+                streamUrl: "https://stream.ottplus.live/live/global_tv_abr/live/global_tv_hd_720/chunks.m3u8",
                 logo: "https://via.placeholder.com/150?text=Sony+Sports+2"
             },
             {
