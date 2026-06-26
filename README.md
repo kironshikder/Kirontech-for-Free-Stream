@@ -151,7 +151,127 @@
                 name: "Ekattor TV HD",
                 streamUrl: "https://owrcovcrpy.gpcdn.net/bpk-tv/1705/output/1705-audio_113352_eng=113200-video=2202800.m3u8",
                 logo: "https://cdn.ekattorbd.com/contents/themes/public/style/images/logo.png"
-            }
+            },
+        {
+            id: 15,
+            name: "Ekattor TV HD",
+            streamUrl: "https://owrcovcrpy.gpcdn.net/bpk-tv/1705/output/1705-audio_113352_eng=113200-video=2202800.m3u8",
+            logo: "https://cdn.ekattorbd.com/contents/themes/public/style/images/logo.png"
+        },
+        {
+            id: 16,
+            name: "Ekattor TV HD",
+            streamUrl: "https://owrcovcrpy.gpcdn.net/bpk-tv/1705/output/1705-audio_113352_eng=113200-video=2202800.m3u8",
+            logo: "https://cdn.ekattorbd.com/contents/themes/public/style/images/logo.png"
+        },
+        {
+            id: 17,
+            name: "Ekattor TV HD",
+            streamUrl: "https://owrcovcrpy.gpcdn.net/bpk-tv/1705/output/1705-audio_113352_eng=113200-video=2202800.m3u8",
+            logo: "https://cdn.ekattorbd.com/contents/themes/public/style/images/logo.png"
+        },
+        {
+            id: 18,
+            name: "Ekattor TV HD",
+            streamUrl: "https://owrcovcrpy.gpcdn.net/bpk-tv/1705/output/1705-audio_113352_eng=113200-video=2202800.m3u8",
+            logo: "https://cdn.ekattorbd.com/contents/themes/public/style/images/logo.png"
+        },
+        {
+            id: 19,
+            name: "Ekattor TV HD",
+            streamUrl: "https://owrcovcrpy.gpcdn.net/bpk-tv/1705/output/1705-audio_113352_eng=113200-video=2202800.m3u8",
+            logo: "https://cdn.ekattorbd.com/contents/themes/public/style/images/logo.png"
+        },
+        {
+            id: 20,
+            name: "Ekattor TV HD",
+            streamUrl: "https://owrcovcrpy.gpcdn.net/bpk-tv/1705/output/1705-audio_113352_eng=113200-video=2202800.m3u8",
+            logo: "https://cdn.ekattorbd.com/contents/themes/public/style/images/logo.png"
+        },
+        {
+            id: 21,
+            name: "Ekattor TV HD",
+            streamUrl: "https://owrcovcrpy.gpcdn.net/bpk-tv/1705/output/1705-audio_113352_eng=113200-video=2202800.m3u8",
+            logo: "https://cdn.ekattorbd.com/contents/themes/public/style/images/logo.png"
+        },
+        {
+            id: 22,
+            name: "Ekattor TV HD",
+            streamUrl: "https://owrcovcrpy.gpcdn.net/bpk-tv/1705/output/1705-audio_113352_eng=113200-video=2202800.m3u8",
+            logo: "https://cdn.ekattorbd.com/contents/themes/public/style/images/logo.png"
+        },
+        {
+            id: 23,
+            name: "Ekattor TV HD",
+            streamUrl: "https://owrcovcrpy.gpcdn.net/bpk-tv/1705/output/1705-audio_113352_eng=113200-video=2202800.m3u8",
+            logo: "https://cdn.ekattorbd.com/contents/themes/public/style/images/logo.png"
+        },
+        {
+            id: 24,
+            name: "Ekattor TV HD",
+            streamUrl: "https://owrcovcrpy.gpcdn.net/bpk-tv/1705/output/1705-audio_113352_eng=113200-video=2202800.m3u8",
+            logo: "https://cdn.ekattorbd.com/contents/themes/public/style/images/logo.png"
+        },
+        {
+            id: 25,
+            name: "Ekattor TV HD",
+            streamUrl: "https://owrcovcrpy.gpcdn.net/bpk-tv/1705/output/1705-audio_113352_eng=113200-video=2202800.m3u8",
+            logo: "https://cdn.ekattorbd.com/contents/themes/public/style/images/logo.png"
+        },
+        {
+            id: 26,
+            name: "Ekattor TV HD",
+            streamUrl: "https://owrcovcrpy.gpcdn.net/bpk-tv/1705/output/1705-audio_113352_eng=113200-video=2202800.m3u8",
+            logo: "https://cdn.ekattorbd.com/contents/themes/public/style/images/logo.png"
+        },
+        {
+            id: 27,
+            name: "Ekattor TV HD",
+            streamUrl: "https://owrcovcrpy.gpcdn.net/bpk-tv/1705/output/1705-audio_113352_eng=113200-video=2202800.m3u8",
+            logo: "https://cdn.ekattorbd.com/contents/themes/public/style/images/logo.png"
+        },
+        {
+            id: 28,
+            name: "Ekattor TV HD",
+            streamUrl: "https://owrcovcrpy.gpcdn.net/bpk-tv/1705/output/1705-audio_113352_eng=113200-video=2202800.m3u8",
+            logo: "https://cdn.ekattorbd.com/contents/themes/public/style/images/logo.png"
+        },
+        {
+            id: 29,
+            name: "Ekattor TV HD",
+            streamUrl: "https://owrcovcrpy.gpcdn.net/bpk-tv/1705/output/1705-audio_113352_eng=113200-video=2202800.m3u8",
+            logo: "https://cdn.ekattorbd.com/contents/themes/public/style/images/logo.png"
+        },
+        {
+            id: 30,
+            name: "Ekattor TV HD",
+            streamUrl: "https://owrcovcrpy.gpcdn.net/bpk-tv/1705/output/1705-audio_113352_eng=113200-video=2202800.m3u8",
+            logo: "https://cdn.ekattorbd.com/contents/themes/public/style/images/logo.png"
+        },
+        {
+            id: 31,
+            name: "Ekattor TV HD",
+            streamUrl: "https://owrcovcrpy.gpcdn.net/bpk-tv/1705/output/1705-audio_113352_eng=113200-video=2202800.m3u8",
+            logo: "https://cdn.ekattorbd.com/contents/themes/public/style/images/logo.png"
+        },
+        {
+            id: 32,
+            name: "Ekattor TV HD",
+            streamUrl: "https://owrcovcrpy.gpcdn.net/bpk-tv/1705/output/1705-audio_113352_eng=113200-video=2202800.m3u8",
+            logo: "https://cdn.ekattorbd.com/contents/themes/public/style/images/logo.png"
+        },
+        {
+            id: 33,
+            name: "Ekattor TV HD",
+            streamUrl: "https://owrcovcrpy.gpcdn.net/bpk-tv/1705/output/1705-audio_113352_eng=113200-video=2202800.m3u8",
+            logo: "https://cdn.ekattorbd.com/contents/themes/public/style/images/logo.png"
+        },
+        {
+            id: 34,
+            name: "Ekattor TV HD",
+            streamUrl: "https://owrcovcrpy.gpcdn.net/bpk-tv/1705/output/1705-audio_113352_eng=113200-video=2202800.m3u8",
+            logo: "https://cdn.ekattorbd.com/contents/themes/public/style/images/logo.png"
+        }
         ];
 
         const grid = document.getElementById('channel-grid');
