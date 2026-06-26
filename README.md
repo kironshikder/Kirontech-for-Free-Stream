@@ -11,18 +11,17 @@
         .hero-bg { background: linear-gradient(to bottom, rgba(11, 15, 25, 0.4), #0b0f19), url('https://lh3.googleusercontent.com/pw/AP1GczOPgX7ZV6vblOeWt99wR4Gvn-XvalwFXBNgZ2ad9i7VoecvA9Aw3hWbYqBos0tu8EBg1n5Iq-zAqx7Hd4f2fDg-_mbUfXsIxTsypY5r1e4CBq4drNHxL5hDPwIj58d0dtuA-VRoaq1yX_TS6jhqQ6MtHQ=w912-h608-s-no-gm?authuser=0') no-repeat center center/cover; }
         .channel-card:hover { transform: translateY(-5px); border-color: #10b981; }
         
-        /* রোটেশন অ্যানিমেশন এবং ওভারফ্লো ঠিক করার জন্য সিএসএস */
+        /* ১৬:৯ সাইজ নিশ্চিত করার জন্য */
         .video-container {
             position: relative;
             width: 100%;
-            aspect-ratio: 16 / 9; /* ১৬:৯ সাইজ নিশ্চিত করা হলো */
+            aspect-ratio: 16 / 9;
             overflow: hidden;
             border-radius: 0.75rem;
         }
         #pstu-player {
             width: 100% !important;
             height: 100% !important;
-            transition: transform 0.3s ease; /* ঘোরার সময় স্মুথ অ্যানিমেশন */
         }
     </style>
 </head>
@@ -48,8 +47,8 @@
                 
                 <div class="mt-4 flex flex-col sm:flex-row justify-between items-center gap-4 px-2">
                     <h2 id="channel-title" class="text-xl font-bold text-emerald-400">বর্তমানে চলছে: BTV</h2>
-                    <button onclick="rotateVideo()" class="bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-2 px-4 rounded-lg flex items-center gap-2 transition-all">
-                        🔄 স্ক্রিন ঘোরান (Rotate)
+                    <button onclick="goFullscreenLandscape()" class="bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-2 px-5 rounded-lg flex items-center gap-2 transition-all shadow-lg">
+                        📱 ফুলস্ক্রিন ল্যান্ডস্কেপ
                     </button>
                 </div>
             </div>
@@ -68,7 +67,6 @@
     </footer>
 
     <script>
-        // চ্যানেল লিস্টের সিনট্যাক্স ভুল (Deepto TV-তে ডাবল streamUrl ছিল) ঠিক করা হয়েছে
         const channels = [
             {
                 id: 1,
@@ -179,19 +177,25 @@
             window.scrollTo({ top: 0, behavior: 'smooth' });
         }
 
-        // ভিডিও রোটেশন লজিক (০, ৯০, ১৮০, ২৭০ ডিগ্রি)
-        let currentRotation = 0;
-        function rotateVideo() {
-            currentRotation = (currentRotation + 90) % 360;
-            const videoEl = document.getElementById('pstu-player');
-            
-            // রোটেশন অনুযায়ী স্কেল ঠিক করা যেন ভিডিও কেটে না যায়
-            if (currentRotation === 90 || currentRotation === 270) {
-                videoEl.style.transform = `rotate(${currentRotation}deg) scale(0.5625)`; // 9/16 = 0.5625
-            } else {
-                videoEl.style.transform = `rotate(${currentRotation}deg) scale(1)`;
+        // ফুলস্ক্রিন এবং অটো-ল্যান্ডস্কেপ ফাংশন
+        function goFullscreenLandscape() {
+            // Video.js-এর বিল্ট-ইন ফুলস্ক্রিন রিকোয়েস্ট করা হলো
+            player.requestFullscreen();
+
+            // ফুলস্ক্রিন হওয়ার পর স্ক্রিন ল্যান্ডস্কেপ করার চেষ্টা (মোবাইলের জন্য)
+            if (screen.orientation && screen.orientation.lock) {
+                screen.orientation.lock('landscape').catch(function(error) {
+                    console.log("ওরিয়েন্টেশন লক করতে সমস্যা হয়েছে (হতে পারে ব্রাউজার সাপোর্ট করে না):", error);
+                });
             }
         }
+
+        // ফুলস্ক্রিন থেকে বের হয়ে গেলে স্ক্রিন আবার স্বাভাবিক (Portrait) করার জন্য লিসেনার
+        player.on('fullscreenchange', function() {
+            if (!player.isFullscreen() && screen.orientation && screen.orientation.unlock) {
+                screen.orientation.unlock();
+            }
+        });
     </script>
 </body>
 </html>
