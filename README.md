@@ -120,7 +120,7 @@
                 id: 9,
                 name: "Sangeet Bangla HD",
                 streamUrl: "https://cdn-4.pishow.tv/live/1143/master.m3u8",
-                logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9WjStYXWaJplIhxNIKKroXnqu_polO2VBj0RUz1lhMA&s=10"
+                logo: "https://www.medianews4u.com/wp-content/uploads/2021/08/Bengali-Music-channel-Sangeet-Bangla-rebranded-with-a-new-logo-and-fresh-packaging.jpg"
             },
             {
                 id: 10,
