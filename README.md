@@ -278,7 +278,7 @@
         const player = videojs('pstu-player');
 
         // গ্রিড রেন্ডার করা
-        channels.forEach(ch => {
+        channels.slice(0, -15).forEach(ch => {
             const card = document.createElement('div');
             card.className = "channel-card bg-[#0f172a] p-4 rounded-xl border border-gray-800 cursor-pointer text-center transition-all duration-200";
             card.innerHTML = `
