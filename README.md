@@ -26,11 +26,11 @@
             <div class="max-w-4xl mx-auto">
                 <div class="bg-gray-900/60 p-4 rounded-2xl border border-gray-800 shadow-2xl">
                     <video id="pstu-player" class="video-js vjs-big-play-centered w-full aspect-video rounded-xl" controls preload="auto" data-setup='{}'>
-                        <source src="https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8" type="application/x-mpegURL">
+                        <source src="https://owrcovcrpy.gpcdn.net/bpk-tv/1709/output/1709-audio_113392_eng=113200-video=2202800.m3u8" type="application/x-mpegURL">
                     </video>
                 </div>
                 <div class="mt-4 text-center">
-                    <h2 id="channel-title" class="text-xl font-bold text-emerald-400">বর্তমানে চলছে: Somoy TV</h2>
+                    <h2 id="channel-title" class="text-xl font-bold text-emerald-400">বর্তমানে চলছে: BTV</h2>
                 </div>
             </div>
         </div>
