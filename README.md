@@ -48,7 +48,7 @@
                 <div class="mt-4 flex flex-col sm:flex-row justify-between items-center gap-4 px-2">
                     <h2 id="channel-title" class="text-xl font-bold text-emerald-400">বর্তমানে চলছে: BTV</h2>
                     <button onclick="goFullscreenLandscape()" class="bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-2 px-5 rounded-lg flex items-center gap-2 transition-all shadow-lg">
-                        📱 ফুলস্ক্রিন ল্যান্ডস্কেপ
+                        🔄 ফুলস্ক্রিন 
                     </button>
                 </div>
             </div>
