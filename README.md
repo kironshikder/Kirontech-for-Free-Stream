@@ -160,7 +160,7 @@
             },
         {
             id: 15,
-            name: "BanglVision TV HD",
+            name: "BanglaVision HD",
             streamUrl: "https://owrcovcrpy.gpcdn.net/bpk-tv/1715/output/1715-audio_113452_eng=113200-video=2202800.m3u8",
             logo: "https://images.seeklogo.com/logo-png/51/1/bangla-vision-tv-channel-logo-png_seeklogo-513051.png"
         },
@@ -190,21 +190,21 @@
         },
         {
             id: 20,
-            name: "Ekattor TV HD",
-            streamUrl: "https://owrcovcrpy.gpcdn.net/bpk-tv/1705/output/1705-audio_113352_eng=113200-video=2202800.m3u8",
-            logo: "https://cdn.ekattorbd.com/contents/themes/public/style/images/logo.png"
+            name: "RtbGo HD",
+            streamUrl: "https://d1211whpimeups.cloudfront.net/smil:rtbgo/chunklist.m3u8",
+            logo: "https://cdn.ekattor-bd.com/contents/themes/public/style/images/logo.png"
         },
         {
             id: 21,
-            name: "Ekattor TV HD",
-            streamUrl: "https://owrcovcrpy.gpcdn.net/bpk-tv/1705/output/1705-audio_113352_eng=113200-video=2202800.m3u8",
-            logo: "https://cdn.ekattorbd.com/contents/themes/public/style/images/logo.png"
+            name: "Test TV HD",
+            streamUrl: "https://cp11.adabmedia.com/hls2/sport.m3u8",
+            logo: "https://cdn.ekatttorbd.com/contents/themes/public/style/images/logo.png"
         },
         {
             id: 22,
-            name: "Ekattor TV HD",
-            streamUrl: "https://owrcovcrpy.gpcdn.net/bpk-tv/1705/output/1705-audio_113352_eng=113200-video=2202800.m3u8",
-            logo: "https://cdn.ekattorbd.com/contents/themes/public/style/images/logo.png"
+            name: "Test 2 TV HD",
+            streamUrl: "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8",
+            logo: "https://cdn.ekatttorbd.com/contents/themes/public/style/images/logo.png"
         },
         {
             id: 23,
@@ -284,7 +284,7 @@
         const player = videojs('pstu-player');
 
         // গ্রিড রেন্ডার করা
-        channels.slice(0, -15).forEach(ch => {
+        channels.slice(0, -12).forEach(ch => {
             const card = document.createElement('div');
             card.className = "channel-card bg-[#0f172a] p-4 rounded-xl border border-gray-800 cursor-pointer text-center transition-all duration-200";
             card.innerHTML = `
